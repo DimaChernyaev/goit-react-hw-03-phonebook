@@ -1,0 +1,46 @@
+.button__delete {
+  display: inline-flex;
+  align-items: center;
+  margin-left: auto;
+  gap: 5px;
+  padding: 8px 8px;
+  font-weight: 400;
+  font-size: 14px;
+      
+  background-color: #ffffff;
+  border: 2px solid black;
+  border-radius: 40px;
+  cursor: pointer;
+      
+  transition: color 250ms linear,
+  border-color 250ms linear,
+  box-shadow 250ms linear;
+}
+      
+.button__delete:hover {
+  color: red;
+  border-color: red;
+  box-shadow: 1px -1px 2px rgba(78,78,78,0.8);
+}
+    
+.contact__list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;}
+
+.contact__item {
+  display: flex;
+  align-items: center;
+  width: 300px;
+  gap: 12px;
+  padding: 8px;
+  border: 2px solid goldenrod;
+  border-radius: 8px;
+  background-color: white;
+}
+
+.item__text {
+  color: black;
+  font-size: 14px;
+}
